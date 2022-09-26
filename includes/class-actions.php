@@ -51,7 +51,7 @@ class Actions {
 				)
 			);
 			if ( is_wp_error( $term1 ) ) {
-				self::$error .= ' ' . $term1->get_error_message();
+				self::$error .= $parent_tag['title'] . ': ' . $term1->get_error_message() . ' ';
 			} else {
 				$parent_tags++;
 			}
@@ -70,7 +70,7 @@ class Actions {
 						)
 					);
 					if ( is_wp_error( $term2 ) ) {
-						self::$error .= ' ' . $term1->get_error_message();
+						self::$error .= $child_tag['title'] . ': ' . $term2->get_error_message() . ' ';
 					} else {
 						$child_tags++;
 					}
