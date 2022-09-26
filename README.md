@@ -10,7 +10,7 @@ __Note:__ This is a free extension created for the community. The Ultimate Membe
 
 ## How to use
 ### CSV file examples:
-#### Example 01- minimal.
+#### Example 01 - minimal.
 <pre>
 Parent term,Slug,User tag
 Colors,,
@@ -42,7 +42,7 @@ Pets,,Bird
 ### Widget
 - go to WordPress Dashboard and look for the "User Tags Importing" widget.
 - upload your CSV file in the field "Source CSV file".
-- clock the "Import" button.
+- click the "Import" button.
 
 #### Screenshots
 Image - Upload CSV file and import tags.
